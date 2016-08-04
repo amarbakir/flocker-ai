@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Test file: Flocker Project, Stuck -->
+<!-- A flocker get's stuck orbiting a light -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+	width="500" height="500" time="100" debug="true">
+	<flocker x="100" y="250" heading="0"
+         clear="true" debug="true"
+         evade="true" align="true" center="true" follow="true" />
+	<rock x="300" y="250" />
+	<light x="310" y="250" heading="0" r="100" g="200" b="100" />
+</world>

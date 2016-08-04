@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Test file: Flocker Project, Split -->
+<!-- Flockers split to avoid obstacle -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+	width="500" height="500" time="100" debug="true">
+	<defaults>
+	<flocker debug="true" 
+		light="true" clear="true" evade="true" align="true" center="true" 
+		r="130" />
+	</defaults>
+	<flocker x="100" y="250" heading="0" />
+	<flocker x="120" y="250" heading="0" />
+	<flocker x="140" y="250" heading="0" />
+	<flocker x="100" y="220" heading="0" />
+	<flocker x="100" y="230" heading="0" />
+	<flocker x="100" y="200" heading="0" />
+	<flocker x="100" y="180" heading="0" />
+	<flocker x="100" y="170" heading="0" />
+	<rock x="310" y="310" />
+	<light x="340" y="340" heading="0" r="100" g="200" b="100" />
+</world>
